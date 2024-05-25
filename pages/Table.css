@@ -1,0 +1,177 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root{
+    --color-yellow : yellow;
+    --color-purple : purple;
+}
+
+*>*{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  
+}
+
+
+
+
+
+
+.body{
+    background-image: linear-gradient(rgb(197, 173, 219),rgb(227, 220, 230));
+}
+
+.btnAddexp{
+    margin-left: 480px;
+    font-family: 'Times New Roman', Times, serif;
+    /* margin-bottom: 50px; */
+}
+
+.history{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 300px;
+
+}
+.charts{
+    display: flex;
+    margin-left: 100px;
+
+}
+/* .exphead{
+    padding-top: 50px;
+    text-align: center;
+    font-family: cursive;
+    color: rgb(66, 16, 112);
+    cursor: pointer;
+}
+.exphead:hover{
+    color: rgb(254, 255, 255);
+} */
+
+/* .tablehead:nth-child(2n+1){
+    text-align: end;
+}
+.tablebody:nth-child(2n+1){
+    background-color: black;
+
+} */
+.exptable{
+    cursor: pointer;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    margin-left: 300px;
+}
+    
+.datatb{
+    height: 30px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.headtb{
+    width: 95px;
+    height: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+
+}
+.tabhead{
+    background-image: linear-gradient(rgb(170, 141, 197),rgb(227, 220, 230));
+
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+
+}
+.tabdata{
+    color: rgb(0, 0, 0);
+    font-family:'Times New Roman', Times, serif;
+
+}
+.tabdata:nth-child(odd){
+    background-image: linear-gradient(rgb(197, 173, 219),rgb(227, 220, 230));
+}
+.btntbl1{
+    width: 60px;
+    /* height: 30px; */
+    border-radius: 5px;
+    border: none;
+    color: white;
+
+}
+.btntbl2{
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
+/* .btntbl3{
+    width: 60px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    background-color: rgb(199, 145, 75);
+} */
+.btntbl3:hover{
+    background-color: burlywood;
+}
+.btntbl2:hover{
+    background-color: rgb(199, 114, 114);
+}
+.btntbl1:hover{
+    background-color: rgb(129, 95, 160);
+} 
+
+
+.chart .title{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 40%;
+    margin-left: 130px;
+    margin-right: auto;
+} 
+
+
+
+
+
+
+
+
+
+
+
+/* * {
+    font-size: 30px;
+} */
+
+/* .mnb div {
+    margin: 10px;
+    height: 100px;
+    width: 200px;
+} */
+
+/* .first {
+    width: 25%;
+    display: inline-flex;
+}
+
+.second {
+    width: 50%;
+    margin-left: 300px;
+    display: inline-block;
+}
+
+
+
+@media screen and (max-width: 500px) {
+
+    .first,
+    .second
+    {
+        width: 70%;
+    }
+} */

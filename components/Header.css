@@ -1,0 +1,16 @@
+.navcontainer{
+    background-image: linear-gradient(rgb(106, 34, 134),rgb(61, 20, 77));
+}
+.logohead{
+    font-style:normal;
+    color: white;
+}
+.logoimg{
+    width: 50px;
+}
+.btn_log{
+    text-decoration: none;
+}
+.btn_sign{
+    margin-left: 20px;
+}

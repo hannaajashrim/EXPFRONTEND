@@ -1,0 +1,16 @@
+.form{
+    margin-top: 100px;
+    border: 1px solid rgb(201, 190, 190) ;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 1.5px 2px  rgb(214, 212, 212);
+
+    
+}
+.nameinput{
+    box-shadow: 1px 1px  rgb(214, 212, 212);
+}
+.form-input{
+    box-shadow: 1px 1px  rgb(214, 212, 212);
+
+}

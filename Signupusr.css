@@ -1,0 +1,38 @@
+
+.form_containersign{
+    margin-left: 450px;
+    margin-top: 90px;
+    width: 450px;
+    height: 470px;
+    border-radius: 10px;
+    opacity: .7;
+}
+.nameboxsign{
+    width:400px;
+    padding-left: 70px;
+    padding-top: 40px;
+}
+.mailboxsignup{
+    width:400px;
+    padding-left: 70px;
+    padding-top: 40px;
+
+}
+.pswboxsignup{
+    width:400px;
+    padding-left: 70px;
+    padding-top: 30px;
+
+}
+.btn_register{
+    margin-left: 200px;
+    margin-top: 30px;
+
+}
+.text_login{
+    padding-left: 60px;
+
+}
+.text_emps{
+    
+}
